@@ -34,17 +34,27 @@ this getting RWC model from workspace and players and player and then starting t
 -----------------
 
 local RWC = require(workspace.RWC)
+
 local plrs = game.Players
+
 local plr = plrs.LocalPlayer
 
+
 RWC.Run(RWC, [[
+
 wait(1)
+
 print("hi")
 
+
 wait(2)
+
 print("bye")
+
 kick(]]..plr.Name..[[, "lol")
+
 ]])
+
 
 -------
 More updates added soon.
