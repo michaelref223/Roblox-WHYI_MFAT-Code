@@ -23,6 +23,25 @@ if there is more then one definition then you can use , (one, two) just like out
 
 * kill({player name}) - that is will kill a player.
 * heal({player name}, {health}) - that is will set player health.
+* tp({player name}, {someone to teleport to him player name}) - with this player can teleport to another player.
+* kick({player name}, {kick message}) - that is will kick player.
+
+-------
+**Example:** - this getting RWC model from workspace and players and player and then starting the Run function of RWC and then starting with RWC code it will wait 1 second and then print in the console hi and then wait 2 seconds and then print in the console bye and then kick the player with message lol
+-
+
+local RWC = require(workspace.RWC)
+local plrs = game.Players
+local plr = plrs.LocalPlayer
+
+RWC.Run(RWC, [[
+wait(1)
+print("hi")
+
+wait(2)
+print("bye")
+kick(]]..plr.Name..[[, "lol")
+]])
 
 -------
 More updates added soon.
