@@ -53,3 +53,7 @@ kick(]]..plr.Name..[[, "lol")
 
 -------
 More updates added soon.
+
+-------
+You can click in this link: https://www.roblox.com/games/13732365181/RWC-Roblox-WHYI-MFAT-Code
+to test RWC inside a game that run the code.
